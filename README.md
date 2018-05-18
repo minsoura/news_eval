@@ -25,12 +25,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 =======
 Hi everyone
 
-#Deepcat
 
-(source OOO)
-
-node mw_collector.js
-
-watch -n 1 python monitor.py
 
 >>>>>>> 6cee72744dd08968c77b654893c08a705484f233
