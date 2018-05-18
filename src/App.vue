@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
+import navbar from './components/navbar.vue';
 export default {
   name: 'App',
   components: {
-    'Navbar': Navbar
+    'navbar': navbar
   }
 }
 </script>
