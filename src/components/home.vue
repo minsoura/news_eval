@@ -16,7 +16,7 @@
       <div class="row">
       <div class="col-md-3 col-md-4 col-md-2">
         <div class="card" style="width: 18rem;">
-          <div class="issue" ><center>이익활동</center></div>
+          <div class="issue" ><center>2018년 5월 18일</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
             <h5 class="card-title"><b>ZUM Internet</b></h5>
@@ -27,7 +27,7 @@
 
       <div class="col-md-3 col-md-4 col-md-2">
         <div class="card" style="width: 18rem;">
-          <div class="issue" ><center>투자</center></div>
+          <div class="issue" ><center>2018년 5월 18일</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
             <h5 class="card-title"><b>ZUM Internet</b></h5>
@@ -38,7 +38,7 @@
 
       <div class="col-md-3 col-md-4 col-md-2">
         <div class="card" style="width: 18rem;">
-          <div class="issue" ><center>사건 사고</center></div>
+          <div class="issue" ><center>2018년 5월 18일</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
             <h5 class="card-title"><b>ZUM Internet</b></h5>
@@ -59,7 +59,7 @@
     <div class="row">
       <div class="col-md-3 col-md-4 col-md-2">
         <div class="card" style="width: 18rem;">
-          <div class="issue" ><center>이익활동</center></div>
+          <div class="issue" ><center>2018년 5월 18일</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
             <h5 class="card-title"><b>ESTsoft</b></h5>
@@ -70,7 +70,7 @@
 
       <div class="col-md-3 col-md-4 col-md-2">
         <div class="card" style="width: 18rem;">
-          <div class="issue" ><center>이익활동</center></div>
+          <div class="issue" ><center>2018년 5월 18일</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
             <h5 class="card-title"><b>ESTsoft</b></h5>
@@ -81,7 +81,7 @@
 
       <div class="col-md-3 col-md-4 col-md-2">
         <div class="card" style="width: 18rem;">
-          <div class="issue" ><center>이익활동</center></div>
+          <div class="issue" ><center>2018년 5월 18일</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
             <h5 class="card-title"><b>ESTsoft</b></h5>
@@ -101,10 +101,10 @@
   <div class="row">
     <div class="col-md-3 col-md-4 col-md-2">
       <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
+        <div class="issue" ><center>2018년 5월 18일</center></div>
         <div class="card-body">
         <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
+          <h5 class="card-title"><b>Samsung Electronics</b></h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
@@ -112,10 +112,10 @@
 
     <div class="col-md-3 col-md-4 col-md-2">
       <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
+        <div class="issue" ><center>2018년 5월 18일</center></div>
         <div class="card-body">
         <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
+          <h5 class="card-title"><b>Samsung Electronics</b></h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
@@ -123,178 +123,10 @@
 
     <div class="col-md-3 col-md-4 col-md-2">
       <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
+        <div class="issue" ><center>2018년 5월 18일</center></div>
         <div class="card-body">
         <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-</div><!-- row-->
-</div><!-- card-holder-->
-</div><!-- company-->
-
-<div class="company">
-<div class="company-title">
-  사고
-</div>
-<div class="card-holder">
-  <div class="row">
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-</div><!-- row-->
-</div><!-- card-holder-->
-</div><!-- company-->
-
-<div class="company">
-<div class="company-title">
-  조직이슈
-</div>
-<div class="card-holder">
-  <div class="row">
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-</div><!-- row-->
-</div><!-- card-holder-->
-</div><!-- company-->
-
-<div class="company">
-<div class="company-title">
-  금융
-</div>
-<div class="card-holder">
-  <div class="row">
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-</div><!-- row-->
-</div><!-- card-holder-->
-</div><!-- company-->
-
-<div class="company">
-<div class="company-title">
-  이익활동
-</div>
-<div class="card-holder">
-  <div class="row">
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
-        <div class="issue" ><center>이익활동</center></div>
-        <div class="card-body">
-        <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
-          <h5 class="card-title"><b>ESTsoft</b></h5>
+          <h5 class="card-title"><b>Samsung Electronics</b></h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
