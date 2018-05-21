@@ -7,9 +7,9 @@
     </div>
     <center>
     <div class="row" style="margin-left:180px; margin-top:3px">
-      <input type="text" placeholder="Search..">
+      <input type="text" placeholder="기업명을 입력.." v-on:keydown.enter="search"  ref="company_query">
       <button type="button" class="btn btn-primary" style="margin-top:8px;backgroundColor:#5cb85c; borderColor:none; ">
-        <span class="glyphicon glyphicon-search"></span> <div class="text">검색</div>
+        <span class="glyphicon glyphicon-search"></span> <div class="text" v-on:click="search">검색</div>
       </button>
     </div>
   </center>
@@ -25,6 +25,19 @@ export default {
     }
   },
   methods: {
+    search(){
+      console.log("queried");
+      if(this.$refs.company_query.value.trim()){
+        var link_query = this.$refs.company_query.value
+        if(link_query=="삼성 전자" || link_query=="삼성전자"){
+          this.$router.push('company_samsung')
+        }else if(link_query=="줌인터넷" || link_query=="줌 인터넷"){
+          this.$router.push('company_zum')
+        }
+      }else{
+
+      }
+    }
   }
 }
 </script>
@@ -80,11 +93,11 @@ export default {
 .topnav input[type=text] {
     padding: 6px;
     border: none;
-    margin-left: 100px;
+    margin-left: 5%;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-    width: 1000px;
+    width: 60%;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
