@@ -5,14 +5,12 @@
         <img src="/../../static/images/zum-logo.png" >
       </a>
     </div>
-    <center>
-    <div class="row" style="margin-left:180px; margin-top:3px">
+    <div class="row" style="display:flex; justify-content:center; margin-top:12px;">
       <input type="text" placeholder="기업명을 입력.." v-on:keydown.enter="search"  ref="company_query">
-      <button type="button" class="btn btn-primary" style="margin-top:8px;backgroundColor:#5cb85c; borderColor:none; ">
-        <span class="glyphicon glyphicon-search"></span> <div class="text" v-on:click="search">검색</div>
+      <button type="button" class="btn btn-primary text" style="backgroundColor:#5cb85c; borderColor:none; border:none" v-on:click="search">
+        검색
       </button>
     </div>
-  </center>
 
   </div>
 </template>
@@ -29,11 +27,30 @@ export default {
       console.log("queried");
       if(this.$refs.company_query.value.trim()){
         var link_query = this.$refs.company_query.value
-        if(link_query=="삼성 전자" || link_query=="삼성전자"){
-          this.$router.push('company_samsung')
-        }else if(link_query=="줌인터넷" || link_query=="줌 인터넷"){
-          this.$router.push('company_zum')
+        if(link_query.indexOf('#')!=-1){
+            console.log("inside");
+          this.$http.get('http://192.168.182.195:10101/proxy/mongo/' + link_query)
+                    .then(response => {
+                    var raw_string = response.data;
+                    alert(raw_string + "^^");
+          });
+
         }
+        if(link_query=="삼성 전자" || link_query=="삼성전자" || link_query=="삼성"){
+          this.$router.push('company_samsung')
+        }else if(link_query=="줌인터넷" || link_query=="줌 인터넷" || link_query=="줌"){
+          this.$router.push('company_zum')
+        }else if(link_query=="아모레 퍼시픽" || link_query=="아모레퍼시픽" || link_query=="아모레"){
+          this.$router.push('company_amore')
+        }else if(link_query=="이스트" || link_query=="이스트소프트"  || link_query=="이스트 소프트"){
+          this.$router.push('company_est')
+        }else if(link_query=="카카오"){
+          this.$router.push('company_kakao')
+        }else if(link_query=="엘지전자" || link_query=="엘지 전자" || link_query=="엘지"){
+            this.$router.push('company_lg')
+        }
+
+        this.$refs.company_query.value = "";
       }else{
 
       }
@@ -51,7 +68,6 @@ export default {
 
 .logo_zum {
   margin-top: -3px;
-  margin-right: -17px;
   float:left;
 }
 
@@ -66,8 +82,8 @@ export default {
 }
 .topnav {
     overflow: hidden;
-    background-color: #e9e9e9;
-    vertical-align: middle;
+    background-color:#2196F3;
+
 
 }
 
@@ -93,11 +109,11 @@ export default {
 .topnav input[type=text] {
     padding: 6px;
     border: none;
-    margin-left: 5%;
-    margin-top: 8px;
+    margin-left: -100px;
     margin-right: 16px;
     font-size: 17px;
     width: 60%;
+    border-radius: 5px;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */

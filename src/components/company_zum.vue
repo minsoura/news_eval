@@ -1,10 +1,11 @@
 <template>
-<body style="padding-top:45px;">
+<body style="padding-top:45px; ">
   <div class="container" >
-    <div class="examples">
+    <div class="examples" style=" margin-left:430px;">
       <div class="row">
-        <router-link to="/company_zum"><div class="btn" style="backgroundColor:#5cb85c;"><center><div class ="btn-text"># 줌인터넷</div></center></div></router-link>
         <router-link to="/company_samsung"><div class="btn" ><center><div class ="btn-text"># 삼성전자</div></center></div></router-link>
+        <router-link to="/company_amore"><div class="btn" ><center><div class ="btn-text"># 아모레퍼시픽</div></center></div></router-link>
+        <router-link to="/company_est"><div class="btn"  ><center><div class ="btn-text"># 이스트소프트</div></center></div></router-link>
       </div>
     </div>
 
@@ -15,12 +16,12 @@
 
     <div class="card-holder">
       <div class="row">
-      <div class="col-md-3 col-md-4 col-md-2">
-        <div class="card" style="width: 18rem;">
+      <div class="col">
+        <div class="card">
           <div class="issue" ><center>2017년 6월21일 14:42</center></div>
           <div class="card-body">
           <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/12/2018/05/08/7dc78c473fc94f159c1b3187ebb2aebe.jpg" alt="Card image cap">
-          <a href="http://news.zum.com/articles/38676996" style=" color:inherit">
+          <a href="http://news.zum.com/articles/38676996" style="color:inherit">
             <h5 class="card-title"><b>줌인터넷, 쇼핑·콘텐츠 추천 앱 내며 모바일 사업 본격화</b></h5>
           </a>
             <p class="card-text">줌인터넷이 모바일 사업을 강화한다. 김우승 줌인터넷 대표는 “이용자가 가장 많이 보는 뉴스 콘텐츠부터 우선 시작하지만 뉴스에 한정된 서비스는 아니다”면서 “이용자 피드백을 반영해 다양한 유형 정보를 추천하는 서비스로 고도화할 것”이라고 설명했다.</p>
@@ -28,8 +29,8 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-md-4 col-md-2">
-        <div class="card" style="width: 18rem;">
+      <div class="col ">
+        <div class="card" >
           <div class="issue" ><center>2017년 6월 04일 13:05</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
@@ -39,8 +40,8 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-md-4 col-md-2">
-        <div class="card" style="width: 18rem;">
+      <div class="col">
+        <div class="card" >
           <div class="issue" ><center>2016년 6월 10일 15:56</center></div>
           <div class="card-body">
           <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/12/2016/06/10/b4428ffec3694cc8aefb8f1e2145a027.jpg" alt="Card image cap">
@@ -49,6 +50,8 @@
           </div>
         </div>
       </div>
+
+      <div class="col"></div>
 
     </div>
   </div>
@@ -62,8 +65,8 @@
   </div>
   <div class="card-holder">
     <div class="row">
-      <div class="col-md-3 col-md-4 col-md-2">
-        <div class="card" style="width: 18rem;">
+      <div class="col">
+        <div class="card" >
           <div class="issue" ><center>2018년 3월 06일 16:49</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
@@ -73,8 +76,8 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-md-4 col-md-2">
-        <div class="card" style="width: 18rem;">
+      <div class="col">
+        <div class="card" >
           <div class="issue" ><center>2017년 8월 14일 13:45</center></div>
           <div class="card-body">
           <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/12/2017/08/14/73559e1a080a4acaa82e3922ae12453d.jpg" alt="Card image cap">
@@ -84,8 +87,8 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-md-4 col-md-2">
-        <div class="card" style="width: 18rem;">
+      <div class="col">
+        <div class="card" >
           <div class="issue" ><center>2016년 6월 10일 15:56</center></div>
           <div class="card-body">
           <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
@@ -94,6 +97,8 @@
           </div>
         </div>
       </div>
+
+      <div class="col"></div>
   </div><!-- row-->
   </div><!-- card-holder-->
   </div><!-- company-->
@@ -106,9 +111,9 @@
   이익활동
 </div>
 <div class="card-holder">
-  <div class="row">
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
+  <div class="row" >
+    <div class=" col-md-3">
+      <div class="card" >
         <div class="issue" ><center>2018년 5월 8일 18:46</center></div>
         <div class="card-body">
         <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/12/2018/05/08/7dc78c473fc94f159c1b3187ebb2aebe.jpg" alt="Card image cap">
@@ -118,8 +123,8 @@
       </div>
     </div>
 
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
+    <div class="col-md-3">
+      <div class="card" >
         <div class="issue" ><center>2017년 12월 28일 09:52</center></div>
         <div class="card-body">
         <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/14/2017/12/28/9f13f7f1d4cf4ce68a49223b79425dfe.jpg" alt="Card image cap">
@@ -129,8 +134,8 @@
       </div>
     </div>
 
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
+    <div class="col-md-3">
+      <div class="card" >
         <div class="issue" ><center>20171107 14:17</center></div>
         <div class="card-body">
         <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/12/2017/11/07/907e64795b484cc985a8ad6dc44728cb.jpg" alt="Card image cap">
@@ -139,11 +144,9 @@
         </div>
       </div>
     </div>
-</div><!-- row-->
 
-<div class="row">
-  <div class="col-md-3 col-md-4 col-md-2">
-    <div class="card" style="width: 18rem;">
+  <div class="col-md-3">
+    <div class="card" >
       <div class="issue" ><center>2017년 8월 23일 17:12</center></div>
       <div class="card-body">
       <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/12/2017/08/23/9eada18defe643a6839b3f926a602aa6.jpg" alt="Card image cap">
@@ -152,9 +155,10 @@
       </div>
     </div>
   </div>
-
-  <div class="col-md-3 col-md-4 col-md-2">
-    <div class="card" style="width: 18rem;">
+</div><!-- row-->
+<div class="row" style="marginTop:30px;">
+  <div class="col-md-3">
+    <div class="card" >
       <div class="issue" ><center>2017년 6월 21일 14:42</center></div>
       <div class="card-body">
       <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/12/2017/06/21/84bef25fbe7148908320b8196066e462.jpg" alt="Card image cap">
@@ -164,8 +168,8 @@
     </div>
   </div>
 
-  <div class="col-md-3 col-md-4 col-md-2">
-    <div class="card" style="width: 18rem;">
+  <div class="col-md-3">
+    <div class="card" >
       <div class="issue" ><center>2017년 5월 29일 16:32</center></div>
       <div class="card-body">
       <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/23/2017/05/29/edbf00a350e44314a134ce93ec99c2b7.jpg" alt="Card image cap">
@@ -184,8 +188,8 @@
 </div>
 <div class="card-holder">
   <div class="row">
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
+    <div class="col">
+      <div class="card" >
         <div class="issue" ><center>2017년 12월 10일 12:00</center></div>
         <div class="card-body">
         <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/3/2017/12/10/AKR20171210015300017_01_i.jpg" alt="Card image cap">
@@ -195,8 +199,8 @@
       </div>
     </div>
 
-    <div class="col-md-3 col-md-4 col-md-2">
-      <div class="card" style="width: 18rem;">
+    <div class="col">
+      <div class="card" >
         <div class="issue" ><center>2016년 12월 05일 21:04</center></div>
         <div class="card-body">
         <img class="card-img-top" src="/../../static/images/placeholder.png" alt="Card image cap">
@@ -205,6 +209,12 @@
         </div>
       </div>
     </div>
+
+      <div class="col"></div>
+      <div class="col"></div>
+
+
+
 
 </div><!-- row-->
 </div><!-- card-holder-->
@@ -219,7 +229,7 @@
   <div class="card-holder">
     <div class="row">
       <div class="col-md-3 col-md-4 col-md-2">
-        <div class="card" style="width: 18rem;">
+        <div class="card" >
           <div class="issue" ><center>2017년 10월11일 10:56</center></div>
           <div class="card-body">
           <img class="card-img-top" src="http://thumb.zumst.com/530x0/http://static.news.zumst.com/images/24/2017/10/11/0f01e2cd2e3b4a8eb6bdbfa8fffdb66f.jpg" alt="Card image cap">
@@ -258,8 +268,32 @@ export default {
 
 body {
     background-color: WhiteSmoke;
+    padding-bottom: 50px;
+    min-height: 1000px;
 
 }
+.container{
+  width:100%;
+  margin-left: 7%;
+  margin-right: 7%;
+
+}
+.company{
+  min-width: 1600px;
+  padding:40px;
+  border-color: white;
+  border-width:2px;
+  border-style: solid;
+  background-color: white;
+  border-radius:30px;
+
+}
+
+.company-title{
+  color: #2196F3;
+  font-weight:bold;
+}
+
 .btn{
   background-color: #2196F3;
   border-radius: 20px;
@@ -288,8 +322,10 @@ body {
 }
 .card-holder{
   margin-top:20px;
+  padding:0px 50px 0px 50px;
 }
 .card{
+  width:20rem;
   border-width: medium;
   border-color: #33b5e5;
   border-style: solid;
@@ -325,15 +361,16 @@ body {
     font-size:13px;
 }
 
+
  .card-img-top {
-  width:200px;
-  object-fit: contain;
+  width:250px;
+  object-fit: cover;
   border-width: thin;
   border-color: lightblue;
   border-style: solid;
   margin-bottom: 15px;
+  max-height: 150px;
 }
-
 
  .card-holder {
   max-height: 1600px;
