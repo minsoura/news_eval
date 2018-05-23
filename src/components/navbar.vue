@@ -78,7 +78,7 @@ export default {
     erase: function(comp_name, index) {
         var compName = event.currentTarget.id;
         console.log("deliverd:" + compName);
-        this.$http.get('http://localhost:11111/proxy/navd/' + compName)
+        this.$http.get('http://192.168.182.195:11111/proxy/navd/' + compName)
                   .then(response => {
                   var query_result = response.data;
                   console.log("remove_res:" + query_result);
@@ -99,7 +99,7 @@ export default {
           console.log(comp_arrays.includes(link_query));
           console.log("after slicing:" + link_query);
           if(!included){
-            this.$http.get('http://localhost:11111/proxy/nav/' + link_query)
+            this.$http.get('http://192.168.182.195:11111/proxy/nav/' + link_query)
                       .then(response => {
                       var query_result = response.data;
                       console.log(query_result + "^^");
