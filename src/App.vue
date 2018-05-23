@@ -2,7 +2,7 @@
   <div id="app">
     <Navbar></Navbar>
     <div id="content">
-      <router-view style="margin:0px; padding-top:40px;"></router-view>
+      <router-view style="margin:0px; padding-top:10px;"></router-view>
     </div>
   </div>
 </template>

@@ -56,6 +56,7 @@ export default{
       name:'Sentiment Analysis',
       sentence:"",
       searchTerm:'',
+
       resultShow : false,
       resultSentence:"",
       resultNumber :'',
@@ -75,7 +76,7 @@ export default{
       var number = 0;
       var korean_pos_or_not ='';
       if(this.$refs.sa_query.value.trim()){
-        this.$http.get('http://192.168.182.195:11111/proxy/sa/' + this.$refs.sa_query.value)
+        this.$http.get('http://localhost:11111/proxy/sa/' + this.$refs.sa_query.value)
                   .then(response => {
                   var raw_string = response.data;
                   positive_or_not = raw_string.split('/')[0];

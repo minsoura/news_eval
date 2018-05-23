@@ -1,14 +1,7 @@
 <template>
 <body style="padding-top:45px; ">
   <div class="container" >
-    <div class="examples" style=" margin-left:430px;">
-      <div class="row">
-        <router-link to="/company_samsung"><div class="btn" ><center><div class ="btn-text"># 삼성전자</div></center></div></router-link>
-        <router-link to="/company_amore"><div class="btn" ><center><div class ="btn-text"># 아모레퍼시픽</div></center></div></router-link>
-        <router-link to="/company_est"><div class="btn"  ><center><div class ="btn-text"># 이스트소프트</div></center></div></router-link>
-      </div>
-    </div>
-
+    <div class="row company-title">줌인터넷</div>
     <div class="company">
     <div class="company-title"><!-- news title-->
       투자
