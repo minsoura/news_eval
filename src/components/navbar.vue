@@ -78,13 +78,15 @@ export default {
     erase: function(comp_name, index) {
         var compName = event.currentTarget.id;
         console.log("deliverd:" + compName);
-        this.$http.get('http://192.168.182.195:11111/proxy/navd/' + compName)
+        this.$delete(this.compNamesArr, index);
+        this.$delete(this.routerLinksArr, index);
+      /*  this.$http.get('http://192.168.182.195:11111/proxy/navd/' + compName)
                   .then(response => {
                   var query_result = response.data;
                   console.log("remove_res:" + query_result);
                   this.$delete(this.compNamesArr, index);
                   this.$delete(this.routerLinksArr, index);
-        });
+        });*/
     },
     search(){
       console.log("queried");
@@ -99,7 +101,35 @@ export default {
           console.log(comp_arrays.includes(link_query));
           console.log("after slicing:" + link_query);
           if(!included){
-            this.$http.get('http://192.168.182.195:11111/proxy/nav/' + link_query)
+              var query_result = "inserted";
+              if (query_result=="inserted" && link_query=="엘지전자"){
+                this.compNamesArr.push(link_query);
+                this.routerLinksArr.push("company_lg");
+                this.currentButton= link_query;
+                changeColor =true;
+
+              }else if (query_result=="inserted" && link_query=="줌인터넷"){
+                this.compNamesArr.push(link_query);
+                this.routerLinksArr.push("company_zum");
+                this.currentButton= link_query;
+                changeColor =true;
+              }else if (query_result=="inserted" && link_query=="삼성전자"){
+                this.compNamesArr.push(link_query);
+                this.routerLinksArr.push("company_samsung");
+                this.currentButton= link_query;
+                changeColor =true;
+              }else if (query_result=="inserted" && link_query=="아모레퍼시픽"){
+                this.compNamesArr.push(link_query);
+                this.routerLinksArr.push("company_amore");
+                this.currentButton= link_query;
+                changeColor =true;
+              }else if (query_result=="inserted" && link_query=="이스트소프트"){
+                this.compNamesArr.push(link_query);
+                this.routerLinksArr.push("company_est");
+                this.currentButton= link_query;
+                changeColor =true;
+              }
+          /*  this.$http.get('http://192.168.182.195:11111/proxy/nav/' + link_query)
                       .then(response => {
                       var query_result = response.data;
                       console.log(query_result + "^^");
@@ -130,7 +160,7 @@ export default {
                         this.currentButton= link_query;
                         changeColor =true;
                       }
-                      });
+                    });*/
           }
         }
         if(link_query=="삼성 전자" || link_query=="삼성전자" || link_query=="삼성"){
